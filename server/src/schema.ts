@@ -6,7 +6,7 @@ export const typeDefs = gql`
     tracksForHome: [Track!]!
   }
 
-  "A track is a group of Modules that teaches about a specific topic"
+  # "A track is a group of Modules that teaches about a specific topic"
   type Track {
     id: ID!
     "The track's title"
@@ -21,7 +21,7 @@ export const typeDefs = gql`
     modulesCount: Int
   }
 
-  "Author of a complete Track"
+  # "Author of a complete Track"
   type Author {
     id: ID!
     "Author's first and last name"
